@@ -1,0 +1,64 @@
+.home-body {
+    width: 700px; /* Can be in percentage also */
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+
+.home-heading {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    margin-top: 15px;
+    color: #000000;
+}
+
+.home-logo {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 28px;
+    letter-spacing: -2.5px;
+    color: #000000;
+}
+  
+  .first-C {
+    font-size: 32px;
+    color: #005587;
+}
+  
+  .last-C {
+    font-size: 32px;
+    color: #2774AE;
+}
+
+.home-text {
+    color: #000000;
+}
+
+.login-creds {
+    color: #8237FF;
+}
+
+@media screen and (max-width: 750px) {
+
+    .home-body {
+        width: 400px; /* Can be in percentage also */
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .home-body {
+        width: 300px; /* Can be in percentage also */
+        padding-top: 20px;
+        font-size: 14px;
+    }
+
+    .home-heading {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        margin-top: 15px;
+        color: #000000;
+    }
+}

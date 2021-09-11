@@ -1,0 +1,101 @@
+.main-course-page {
+    width: 700px; /* Can be in percentage also. */
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    padding-bottom: 30px;
+    background-color: #DAEBFE;
+}
+
+.CoursePage {
+    width: 600px; /* Can be in percentage also. */
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+}
+
+.CoursePage_heading {
+    font-family: 'Josefin Sans', sans-serif;    
+    font-size: 36px;
+    margin-top: 20px;
+    padding-top: 20px;
+    letter-spacing: -2px;
+}
+
+.page-body {
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    text-align: left;
+    padding-bottom: 30px;
+}
+
+.page-line {
+    height:fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+
+.course-labels {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #000000;
+    order: 1;
+}
+
+.course-data {
+    color: #005587;
+    font-size: 20px;
+    font-family: 'Didact Gothic', sans-serif;
+    order: 2;
+}
+
+.butts {
+    color: #FFD100;
+    border: none;
+    padding: 10px 25px;
+    background-color: #2774AE;
+    font-size: 20px;
+    margin: 0 25px;
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+}
+
+@media screen and (max-width: 750px) {
+
+    .main-course-page {
+        width: 400px; /* Can be in percentage also */
+    }
+
+    .CoursePage {
+        width: 75%; /* Can be in percentage also. */
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .main-course-page {
+        width: 300px; /* Can be in percentage also */
+    }
+
+    .CoursePage {
+        width: 75%; /* Can be in percentage also. */
+    }
+
+    .CoursePage_heading {
+        font-size: 24px;
+        margin-top: 20px;
+        padding-top: 20px;
+        letter-spacing: -1px;
+    }
+
+    .course-labels, .course-data {
+        font-size: 16px;
+    }
+}

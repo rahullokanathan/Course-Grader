@@ -1,0 +1,116 @@
+.header-container {
+    width: 700px; /* Can be in percentage also. */
+    height: auto;
+    margin: 0 auto;
+    padding: 30px;
+    position: relative;
+    text-align: center;
+  }
+  
+  .Header {
+      height: 40px;
+      display: flex;
+      align-items: normal;
+      justify-content: space-between;
+      margin-bottom: 50px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+      padding-bottom: 10px;
+  }
+  
+  .site-title {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 50px;
+    letter-spacing: -2.5px;
+    color: #000000;
+  }
+  
+  .first-N {
+    font-size: 80px;
+    color: #005587;
+  }
+  
+  .last-N {
+    font-size: 80px;
+    color: #2774AE;
+  }
+    
+    .Header h1 {
+      margin: 0;
+    }
+    
+    .Header h1 a {
+      text-decoration: none;
+    }
+    
+    .Header a {
+      color: #000000;
+      text-decoration: none;
+    }
+    
+    .Header__not-logged-in {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .Header__not-logged-in .Hyph {
+      display: none;
+    }
+  
+    .reg-links {
+      padding-bottom: 5px;
+    }
+  
+    .reg-links:hover, .logout:hover {
+      text-decoration: underline;
+      color: #8237FF;
+    }
+  
+  
+  /* start of desktop and large table styles */
+  
+  @media screen and (max-width: 750px) {
+  
+    .header-container {
+      width: 400px; /* Can be in percentage also */
+    }
+  
+    .Header {
+      display: inline-block;
+    }
+
+  }
+
+  @media screen and (max-width: 500px) {
+  
+    .header-container {
+      width: 300px; /* Can be in percentage also */
+      padding: 20px 10px 0px 10px;
+    }
+  
+    .Header {
+      display: inline-block;
+    }
+
+    .site-title {
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 32px;
+      letter-spacing: -2.5px;
+      color: #000000;
+    }
+    
+    .first-N {
+      font-size: 50px;
+      color: #005587;
+    }
+    
+    .last-N {
+      font-size: 50px;
+      color: #2774AE;
+    }
+
+    .reg-links {
+      font-size: 16px;
+    }
+  }
+    

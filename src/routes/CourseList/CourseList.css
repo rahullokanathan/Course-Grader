@@ -1,0 +1,95 @@
+.main-list {
+    width: 700px; /* Can be in percentage also. */
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+/*  font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+    font-family: 'Satisfy', cursive;
+    font-family: 'Shrikhand', cursive; 
+*/
+
+.CourseList_heading {
+    font-family: 'Josefin Sans', sans-serif;    
+    font-size: 36px;
+    margin-top: 10px;
+    letter-spacing: -2px;
+}
+
+.CourseList {
+    width: 100%; 
+    height: 90px;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.CourseList_list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    margin: 0;
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.AddButton {
+    color: #00FF87;
+    border: none;
+    padding: 15px 32px;
+    background-color: #003B5C;
+    font-size: 25px;
+    margin: 0 30px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 750px) {
+
+    .main-list {
+        width: 400px; /* Can be in percentage also */
+    }
+}
+ 
+@media screen and (max-width: 500px) {
+
+    .main-list {
+        width: 300px; /* Can be in percentage also */
+    }
+
+    .CourseList_heading {
+        font-family: 'Josefin Sans', sans-serif;    
+        font-size: 32px;
+        padding-top: 15px;
+        letter-spacing: -2px;
+    }
+
+    .AddButton {
+        color: #00FF87;
+        border: none;
+        padding: 15px;
+        background-color: #003B5C;
+        font-size: 16px;
+        margin: 0 30px;
+        margin-bottom: 15px;
+        cursor: pointer;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+}
